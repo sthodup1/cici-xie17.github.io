@@ -1,0 +1,294 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.topnav {
+   position: fixed;
+   width: 100%;
+   z-index:1000;
+}
+.topnav a {
+   float: left;
+   display: block;
+   color: #696969;
+   text-align: center;
+   padding: 0px 16px;
+   text-decoration: none;
+   font-size: 20px;
+}
+.topnav a:hover {
+   color: #c4c4c4;
+}
+.topnav a.active {
+   color: #696969;
+}
+.topnav .icon {
+   display: none;
+}   
+    
+.fontstyleoswaldnav {
+   font-size: 20px;
+   color: #696969;
+   font-family: Oswald;
+   font-weight: 400;
+   text-decoration:none;
+   text-align:center;
+   line-height: 106px;
+   height: 106px;
+}
+    
+.fontstyleoswaldbody {
+   font-size: 18px;
+   color: #696969;
+   font-family: Oswald;
+   font-weight: 200;
+   padding: 15px;
+   line-height: 2;
+}
+     
+.fontstyleoswaldside {
+   font-size: 18px;
+   color: #696969;
+   font-family: Oswald;
+   font-weight: 200;
+   padding: 10px;
+   line-height: 1;
+}
+
+.fontstyleoswaldbottom {
+   font-size: 18px;
+   color: #696969;
+   font-family: Oswald;
+   font-weight: 200;
+   padding: 0px;
+   line-height: 2;
+}
+
+.fontstyleoswaldright {
+   font-size: 18px;
+   color: #696969;
+   font-family: Oswald;
+   font-weight: 200;
+   padding: 0px;
+    line-height: 1.4;
+}
+
+.fontstylejosefinsmall {
+   margin-top: 40px;
+   font-size: 18px;
+   color: #696969;
+   font-family: Josefin Slab;
+   font-weight: bold;
+   text-align: left;
+ }
+
+.fontstylejosefin {
+   margin-top: 20px;
+   font-size: 32px;
+   color: #696969;
+   font-family: Josefin Slab;
+   font-weight: bold;
+   text-align: right;
+ }
+
+.fontstylejosefinh1 {
+   margin-top: 20px;
+   font-size: 48px;
+   color: #696969;
+   font-family: Josefin Slab;
+   font-weight: bold;
+   text-align: right;
+ }
+
+.fontstylejosefinh2 {
+   margin-top: 26px;
+   font-size: 24px;
+   color: #696969;
+   font-family: Josefin Slab;
+   font-weight: bold;
+   text-align: right;
+ }
+
+.headline {
+   line-height: 1em;
+   color: #696969;
+   position: relative;
+} 
+.headline:after {
+   content:' ';
+   position: absolute;
+   top:100%;
+   left:50%;
+   width: 80px;
+   border:0.5px solid  #696969;
+   border-radius:1px;
+   box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+   transform:translateX(-50%);
+}
+
+.headlinelong {
+   line-height: 2em;
+   color: #696969;
+   position: relative;
+} 
+.headlinelong:after {
+   content:' ';
+   position: absolute;
+   top:100%;
+   left:50%;
+   width: 180px;
+   border:0.5px solid  #696969;
+   border-radius:0.5px;
+   box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+   transform:translateX(-50%);
+}
+
+.headlineresearch {
+   line-height: 2em;
+   color: #696969;
+   position: relative;
+} 
+.headlineresearch:after {
+   content:' ';
+   position: absolute;
+   top:100%;
+   left:50%;
+   width: 160px;
+   border:0.5px solid  #696969;
+   border-radius:0.5px;
+   box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+   transform:translateX(-50%);
+}
+
+.headlinedesign {
+   line-height: 2em;
+   color: #696969;
+   position: relative;
+} 
+.headlinedesign:after {
+   content:' ';
+   position: absolute;
+   top:100%;
+   left:50%;
+   width: 100px;
+   border:0.5px solid  #696969;
+   border-radius:0.5px;
+   box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+   transform:translateX(-50%);
+}
+
+.divauto {
+   width: 100%;
+   height:100%;      
+} 
+.img {
+   width:100%;
+   height:auto;
+}
+
+#hoverup {
+   position: relative;
+   top: 0;
+   transition: top ease 0.5s;
+   height: auto;
+}
+#hoverup:hover {
+   top: -15px;
+}
+#hoverup:scroll {
+   top: -15px;
+}
+
+#rightpanel {
+   width: 80%;
+   float: left;
+   text-align: left;
+}
+#rightpanel div.target {
+   background: white;
+}
+#rightpanel div.target:nth-child(even) {
+   background: white;
+}
+
+#sidenav {
+   top: 40%;
+   position: fixed;
+}
+#sidenav nav {
+   width: 15%;
+   position: fixed;
+}
+#sidenav a {
+   color: #696969;
+   display: block;
+   padding: 8px;
+   margin-left: 30px;
+   font-family: Oswald;
+   font-weight: 200;
+   font-size: 14px;
+   text-align: left;
+   text-decoration: none;
+}
+#sidenav a:hover, #sidenav a.active {
+   background: white;
+   color: #FFCCAC;
+   font-weight: 400;
+   width: 15%;
+}
+
+.pt {
+  padding-top: 200px;
+}
+
+.pb {
+  padding-bottom: 200px;
+}
+
+.pl {
+  padding-left: 200px;
+}
+
+.pr {
+  padding-right: : 200px;
+}
+.inlinepadding {
+  line-height: 2.2;
+}
+
+.yellowtext {
+  color: #F8AE39;
+}
+
+.redtext {
+  color: #932123;
+}
+
+.peachtext {
+  color: #FFC6AD;
+}
+
+.graytext {
+  color: #696969;
+  font-size: 20px;
+}
+
+#backtotopbutton {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+.footer {
+  margin-top: 200px;
+  margin-bottom: 20px;
+  font-family: Oswald;
+  color: #696969;
+  font-size: 14px;
+  font-weight: 200;
+  text-align: center;
+}
